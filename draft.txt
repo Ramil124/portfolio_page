@@ -1,0 +1,77 @@
+Electricity project
+
+<!-- Projects Section -->
+<section class="posts" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; margin: 40px 0;">
+
+    <!-- Electricity Contract Selection Project -->
+    <article style="flex: 0 1 320px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <h2>
+            <a href="https://github.com/Ramil124/PortfolioProjects/blob/main/Electricity%20Contract%20Selection.ipynb" target="_blank">
+                Electricity Contract Selection using Python
+            </a>
+        </h2>
+        <a href="https://github.com/Ramil124/PortfolioProjects/blob/main/Electricity%20Contract%20Selection.ipynb" target="_blank">
+            <img src="images/electricity_contract.jpg" alt="Electricity Contract Analysis" style="width: 250px; height: 700px; margin: 15px 0;">
+        </a>
+        <p style="text-align: justify;">
+            After installation of the smart electricity meter, this model reports the usage every hour. 
+            My role was to determine which contract minimizes the annual electricity cost. There are 3 types of contracts:
+            <br>• No Flex (constant cost)<br>• Monthly Flex (monthly fluctuations)<br>• Hourly Flex (hourly fluctuations)
+            <br>I cleaned the dataset using <b>RegEx</b> and used <b>Pandas</b> to calculate key performance metrics.
+        </p>
+        <a href="https://github.com/Ramil124/PortfolioProjects/blob/main/Electricity%20Contract%20Selection.ipynb" class="button large" target="_blank">View Project</a>
+    </article>
+
+    <!-- Fuzzy Factory SQL Project -->
+    <article style="flex: 0 1 320px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <h2>
+            <a href="https://github.com/Ramil124/PortfolioProjects/blob/main/fuzzy_factory_analysis.sql" target="_blank">
+                Data Analysis of Maven Fuzzy Factory With SQL
+            </a>
+        </h2>
+        <a href="https://github.com/Ramil124/PortfolioProjects/blob/main/fuzzy_factory_analysis.sql" target="_blank">
+            <img src="images/fuzzy_bear.jpg" alt="Fuzzy Factory Analysis" style="width: 250px; height: 250px; margin: 15px 0;">
+        </a>
+        <p style="text-align: justify;">
+            Analyzed 4 years of company growth to support funding decisions using <b>SQL</b> and <b>MySQL Workbench</b>. 
+            Evaluated KPIs like channel growth, session-to-order conversion, monthly revenue trends, and sales for cross-sells.
+        </p>
+        <a href="https://github.com/Ramil124/PortfolioProjects/blob/main/fuzzy_factory_analysis.sql" class="button" target="_blank">View Project</a>
+    </article>
+
+    <!-- Rock Formations Project -->
+    <article style="flex: 0 1 320px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <h2>
+            <a href="https://github.com/Ramil124/PortfolioProjects/blob/main/Lithology_prediction.ipynb" target="_blank">
+                Rock Formations with Python
+            </a>
+        </h2>
+        <a href="https://github.com/Ramil124/PortfolioProjects/blob/main/Lithology_prediction.ipynb" target="_blank">
+            <img src="images/geology.jpg" alt="Rock Formation Prediction" style="width: 250px; height: 250px; margin: 15px 0;">
+        </a>
+        <p style="text-align: justify;">
+            Predicted rock formations during drilling using a <b>Machine Learning</b> model. 
+            Cleaned and processed drilling operations data, removed outliers, and selected key features like <b>Weight on Drill Bit</b>.
+        </p>
+        <a href="https://github.com/Ramil124/PortfolioProjects/blob/main/Lithology_prediction.ipynb" class="button" target="_blank">View Project</a>
+    </article>
+
+    <!-- Hyundai Crew Member Estimation Project -->
+    <article style="flex: 0 1 320px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <h2>
+            <a href="https://github.com/Ramil124/PortfolioProjects/blob/main/Hyundai_Crew_member_estimation.ipynb" target="_blank">
+                Hyundai Crew Member Estimation Using PySpark
+            </a>
+        </h2>
+        <a href="https://github.com/Ramil124/PortfolioProjects/blob/main/Hyundai_Crew_member_estimation.ipynb" target="_blank">
+            <img src="images/hyundai_hd.png" alt="Hyundai Crew Estimation" style="width: 250px; height: 250px; margin: 15px 0;">
+        </a>
+        <p style="text-align: justify;">
+            Predicted crew members needed for Hyundai ships using <b>PySpark</b> and <b>Linear Regression</b>. 
+            Included features affecting crew requirements and vectorized inputs for better model performance.
+        </p>
+        <a href="https://github.com/Ramil124/PortfolioProjects/blob/main/Hyundai_Crew_member_estimation.ipynb" class="button" target="_blank">View Project</a>
+    </article>
+
+    <!-- Add remaining projects in same structure -->
+</section>
