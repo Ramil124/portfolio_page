@@ -1,0 +1,299 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license
+-->
+<html>
+
+<head>
+	<title>Data Engineering | Ramil Abbasov</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<div id="wrapper" class="fade-in">
+
+		<!-- Header -->
+		<header id="header">
+			<a href="index.html" class="logo">Home</a>
+		</header>
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul class="links">
+				<li><a href="index.html">Data Analysis</a></li>
+				<li class="active"><a href="data_engineering.html">Data Engineering</a></li>
+				<li><a href="generic.html">About Me</a></li>
+			</ul>
+			<ul class="icons">
+				<li><a href="https://www.linkedin.com/in/ramil-abbasov-979b06125/" class="icon brands alt fa-linkedin"
+						target="_blank"><span class="label">linkedin</span></a></li>
+				<li><a href="https://github.com/Ramil124" class="icon brands alt fa-github" target="_blank"><span
+							class="label">GitHub</span></a></li>
+				<li><a href="https://github.com/Ramil124/PortfolioProjects/raw/main/Abbasov%20Ramil_Resume.pdf"
+					
+						download="Ramil's Resume.pdf"" target=" _blank">
+						<i class="fa fa-file" style="font-size:18px;"></i>
+					</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<header class="major">
+				<h1>Data Engineering Projects</h1>
+				<p>
+					Projects focused on building scalable data pipelines, ETL processes,
+					data modeling, and automation using Python, SQL, Spark, and other tools.
+				</p>
+			</header>
+
+			<section class="posts">
+
+				<!-- Project 1 -->
+				<article>
+					<header>
+						<h2>
+							<a href="https://github.com/Ramil124/PortfolioProjects/blob/main/anime_catalogue.py" target="_blank">
+								Anime Catalogue Data Pipeline (Apache Airflow, Python, PostgreSQL)
+							</a>
+						</h2>
+					</header>
+
+					<a href="https://github.com/Ramil124/PortfolioProjects/blob/main/anime_catalogue.py" class="image fit" target="_blank">
+						<img src="images/Anime.jpg" alt="ETL Pipeline Project" />
+					</a>
+
+					<p>
+						Developed an automated ETL <b>(Extract, Transform, Load)</b> pipeline to collect, clean, 
+                        and store anime metadata from a public API for downstream analysis and reporting.
+                        The pipeline extracts data from the Jikan API, which provides information about top anime series,
+                        including titles, airing dates, episodes, duration, broadcast schedule, and ratings. 
+                        The workflow ensures the data is accurate, standardized, and readily accessible for analytics.
+
+                        <br>The pipeline produces a clean, structured anime catalogue CSV that is automatically loaded into Postgres daily.
+                        This setup enables efficient querying, analysis, and reporting on anime trends, airing schedules, and ratings,
+                        demonstrating expertise in data engineering, ETL automation, and workflow orchestration.</br>
+					</p>
+
+					<ul class="actions special">
+						<li>
+							<a href="https://github.com/Ramil124/PortfolioProjects/blob/main/anime_catalogue.py" class="button" target="_blank">
+								View Project
+							</a>
+						</li>
+					</ul>
+				</article>
+
+				<!-- Project 2 -->
+				<article>
+					<header>
+						<h2>
+							<a href="https://github.com/Ramil124/PortfolioProjects/blob/main/ingest_into_pg.py" target="_blank">
+								NYC Green Taxi Trip Data Pipeline (Apache Airflow, Python, PostgreSQL)
+							</a>
+						</h2>
+					</header>
+
+					<a href="https://github.com/Ramil124/PortfolioProjects/blob/main/ingest_into_pg.py" class="image fit" target="_blank">
+						<img src="images/green_cab.webp" alt="GreenTaxi" />
+					</a>
+
+					<p>
+						Designed and implemented an automated ETL pipeline to extract, transform, 
+                        and load <b>NYC Green Taxi trip data</b> into a <b>PostgreSQL</b> database for analysis of trip patterns,
+                         distances, and fares.
+                        The pipeline downloads monthly taxi trip data, cleans and filters it,
+                        and loads it into a structured database, enabling data-driven insights into passenger counts,
+                        trip distances, and fare amounts.
+                        <br>The pipeline produces a clean, query-ready NYC Green Taxi dataset that is automatically
+                        updated daily in PostgreSQL. This enables efficient analysis of trip metrics and supports 
+                        further data science and reporting efforts, demonstrating expertise in production ETL pipelines,
+                        data cleaning, and workflow automation.</br>
+					</p>
+
+					<ul class="actions special">
+						<li>
+							<a href="https://github.com/Ramil124/PortfolioProjects/blob/main/ingest_into_pg.py" class="button" target="_blank">
+								View Project
+							</a>
+						</li>
+					</ul>
+				</article>
+
+				<!-- Project 3 -->
+				<article>
+					<header>
+						<h2>
+							<a href="https://github.com/Ramil124/airflow-snowflake" target="_blank">
+								Snowflake ELT Pipeline with dbt & Airflow Automation (Python, Snowflake, SQL, dbt, Airflow)
+							</a>
+						</h2>
+					</header>
+
+					<a href="https://github.com/Ramil124/airflow-snowflake" class="image fit" target="_blank">
+						<img src="images/snowflake.jpg" alt="ETL Pipeline Project" />
+					</a>
+
+					<p>
+						This project implements a robust ELT (Extract, Load, Transform) pipeline using <b>Snowflake, dbt,
+						and Apache Airflow</b> to automate data ingestion, transformation, and orchestration. 
+						The pipeline is designed to handle structured data efficiently and ensure data quality through 
+						testing and reusable business logic.
+						Key features of the project include:
+						Snowflake Integration: Set up warehouses, databases, schemas, and roles for secure and
+						scalable data storage.
+						dbt Modeling: Create modular dbt models including fact and dimension tables,
+						apply macros for reusable business logic, and enforce data integrity using generic and singular tests.
+						Data Transformation Automation: Implement transformations in dbt and deploy 
+						models using Airflow DAGs, ensuring scheduled and automated execution.
+						Package Management: Use dbt packages like <b>dbt-labs/dbt-utils</b> for
+						advanced transformations and testing.
+						End-to-End Orchestration: Configure Airflow connections, 
+						run tasks in a Dockerized environment, and maintain a workflow for production-ready ELT pipelines.
+						This pipeline demonstrates scalable, testable, and maintainable data engineering practices,
+						making it suitable for real-world analytics and business intelligence applications.
+					</p>
+
+					<ul class="actions special">
+						<li>
+							<a href="https://github.com/Ramil124/airflow-snowflake" class="button" target="_blank">
+								View Project
+							</a>
+						</li>
+					</ul>
+				</article>
+
+
+			<!-- Project 4 -->
+				<article>
+					<header>
+						<h2>
+							<a href="https://github.com/Ramil124/PortfolioProjects/blob/main/data_pipeline.py" target="_blank">
+								Healthcare ETL Pipeline (Apache Airflow, Python, PostgreSQL)
+							</a>
+						</h2>
+					</header>
+
+					<a href="https://github.com/Ramil124/PortfolioProjects/blob/main/data_pipeline.py" class="image fit" target="_blank">
+						<img src="images/healthcare.jpg" alt="GreenTaxi" />
+					</a>
+
+					<p>
+    					Designed and implemented an automated ETL pipeline to extract, transform, 
+    					and load <b>CMS Outpatient Claims data</b> into a <b>PostgreSQL</b> database for analysis of claim amounts, provider activity, 
+    					and patient payment ratios. The pipeline downloads compressed CSV data from the CMS public repository, 
+    					extracts and cleans the dataset, calculates key metrics such as patient responsibility ratio and claim duration, 
+    					and loads the processed data into a structured database for analytics.
+    					<br>The pipeline produces a clean, query-ready outpatient claims dataset that can be efficiently queried in PostgreSQL, 
+    					enabling reporting, dashboard creation, and data-driven insights into healthcare service utilization and billing patterns. 
+    					This demonstrates expertise in building production-grade ETL pipelines, data cleaning, workflow automation, and large-scale data handling.</br>
+						<b>Technologies used:</b> Apache Airflow, Python (pandas, io, zipfile, base64), PostgreSQL, SQLAlchemy, Docker, HTTP APIs</br>
+					</p>
+
+
+					<ul class="actions special">
+						<li>
+							<a href="https://github.com/Ramil124/PortfolioProjects/blob/main/data_pipeline.py" class="button" target="_blank">
+								View Project
+							</a>
+						</li>
+					</ul>
+				</article>
+
+				<!-- Project 5 -->
+				<article>
+					<header>
+						<h2>
+							<a href="https://github.com/Ramil124/PortfolioProjects/blob/main/extract_transform_load_dag.py" target="_blank">
+								Data Transformer (Apache Airflow, Python, PostgreSQL)
+							</a>
+						</h2>
+					</header>
+
+					<a href="https://github.com/Ramil124/PortfolioProjects/blob/main/extract_transform_load_dag.py" class="image fit" target="_blank">
+						<img src="images/data_transformation.png" alt="Data Transform" />
+					</a>
+
+					<p>
+						Designed and implemented an automated data transformation pipeline using Apache Airflow 
+                        to process NYC Green Taxi trip data. The pipeline extracts raw CSV data, cleans and transforms it 
+                        using pandas—including filtering invalid trips, selecting relevant columns, and converting
+                        timestamps—and loads the refined dataset into a PostgreSQL database for analysis.
+                        <br><b>Technologies:</b> Python, Airflow, pandas, PostgreSQL, SQLAlchemy, Bash, Docker
+					</p>
+
+					<ul class="actions special">
+						<li>
+							<a href="https://github.com/Ramil124/PortfolioProjects/blob/main/extract_transform_load_dag.py" class="button" target="_blank">
+								View Project
+							</a>
+						</li>
+					</ul>
+				</article>
+
+
+			</section>
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<section class="split contact">
+				<section class="alt">
+					<h3>Location</h3>
+					<p>Azerbaijan, Baku</p>
+				</section>
+				<section>
+					<h3>Email</h3>
+					<p>ramil.abbasov194@gmail.com</p>
+				</section>
+				<section>
+					<h3>Social</h3>
+					<ul class="icons alt">
+						<li>
+							<a href="https://www.linkedin.com/in/ramil-abbasov-979b06125/"
+								class="icon brands alt fa-linkedin" target="_blank">
+								<span class="label">LinkedIn</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/Ramil124"
+								class="icon brands alt fa-github" target="_blank">
+								<span class="label">GitHub</span>
+							</a>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</footer>
+
+		<div id="copyright">
+			<ul>
+				<li>&copy; Ramil Abbasov</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
